@@ -1,0 +1,46 @@
+@keyframes spread{
+    from{
+        outline-offset: 0px;
+    }
+    to{
+        outline-offset: 20px;
+    }
+}
+
+.preloader-wrapper{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255,255,255, .95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.preloader-wrapper.loaded{
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loader{
+    /* outline-offset: 10px; */
+    outline: 2px solid var(--primary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "monserrat";
+    font-weight: bold;
+    font-size: 30px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    animation: spread 1.5s linear infinite;
+}

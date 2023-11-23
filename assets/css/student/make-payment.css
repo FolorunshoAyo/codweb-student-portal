@@ -1,0 +1,85 @@
+.make-payment-container{
+    padding: 0 10rem;
+    margin: 2rem 0 8rem;
+}
+
+.main-title{
+    font-size: 5rem;
+}
+
+.make-payment-notice{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.details p{
+    font-size: 1.5rem;
+}
+
+.order-details{
+    margin-top: 40px;
+}
+
+.details{
+    margin: 40px 0 10px;
+}
+
+
+.order-details.course{
+    margin-top: 40px;
+}
+
+.order-info, .handling-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-info{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.handling-info{
+    font-size: 1.3rem;
+}
+
+.label{
+    flex: 0 0 150px;
+    display: flex;
+    align-items: center;
+}
+
+.label i{
+    margin-right: 10px;
+}
+
+.total{
+    font-size: 1.5rem;
+    text-align: end;
+    padding: 1rem 0;
+    border-top: 2px solid grey;
+    border-bottom:  2px solid grey;
+}
+
+.pay-btn-container{
+    margin-top: 40px;
+    text-align: end;
+}
+
+.pay-btn-container button{
+    padding: 2rem;
+    color: var(--white);
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}

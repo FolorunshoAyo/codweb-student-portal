@@ -1,0 +1,391 @@
+@keyframes drop {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-50%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* HERO HOMEPAGE START */
+
+.hero-section{
+    margin: 80px 0 120px;
+}
+
+.hero-container{
+    padding: 30px 20px;
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hero-text-box{
+    flex: 0 0 50%;
+    border-right: 1px solid var(--white);
+    padding-right: 30px;
+}
+
+.hero-title{
+    font-family: 'KyivType Sans', sans-serif;
+    font-size: 11rem;
+    line-height: 1.0;
+    margin-bottom: 3rem;
+}
+
+.hero-text{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-btn{
+    width: 40%;
+    border-radius: 10px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 0.8rem 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.hero-btn:hover{
+    background-color: var(--secondary-color);
+}
+
+.hero-image-container{
+    flex: 0 0 50%;
+    position: relative;
+    height: inherit;
+}
+
+.hero-image{
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    top: -150px;
+    left: -90px;
+}
+
+/* HERO HOMEPAGE END */
+
+/* SERVICES SECTION START*/
+.services-section{
+    padding: 0 3rem;
+    margin-bottom: 120px;
+}
+
+.container{
+    padding: 2rem 1rem;
+}
+
+.row{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col3, .footer-col3{
+    flex: 0 0 28%;
+}
+
+.col2{
+    flex: 0 0 45%;
+}
+
+.col2:not(:last-child){
+    margin-right: auto;
+}
+
+.service-group{
+    padding: 1rem;
+}
+
+.service-group img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service-group .service-group-title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.service-group-list{
+    list-style-type: none;
+    text-align: center;
+}
+
+.service-group-list-item{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-group-list-item i{
+    margin-right: 20px;
+    color: var(--primary-color);
+}
+
+/* SERVICES SECTION END */
+
+/* PORTFOLIO SECTION START */
+.portfolio-section{
+    padding: 0 3rem;
+    margin-bottom: 120px;
+}
+
+.portfolio-container div{
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* PORTFOLIO SECTION END */
+
+/* COLLABORATE SECTION START */
+.collaborate-section{
+    padding: 0 3rem;
+    margin-bottom: 80px;
+}
+
+.collaborate-image-container img{
+    width: 100%;
+}
+
+.reasons-list{
+    list-style-type: none;
+}
+
+.reasons-list-item{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.collaborate-btn-container{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.collaborate-btn-container button{
+    padding: 8px 12px;
+    width: 180px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+/* COLLABORATE SECTION END */
+
+/* ABOUT US SECTION START */
+
+.aboutus-section{
+    width: 90%;
+    height: 600px;
+    padding: 3rem 3rem 3rem 10rem;
+    border: 5px solid var(--primary-color);
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 120px;
+}
+
+.aboutus-container{
+    display: flex;
+    height: inherit;
+}
+
+.aboutus-text-box{
+    flex: 0 0 50%;
+    margin-right: 20px;
+}
+
+.aboutus-text-box .title{
+    text-align: initial;
+}
+
+.aboutus-text-box .text{
+    font-size: 2rem;
+}
+
+.aboutus-text-box .text b{
+    color: var(--primary-color);
+}
+
+.aboutus-text-box .text:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.aboutus-gallery{
+    flex: 1;
+    height: inherit;
+    position: relative;
+}
+
+.aboutus-gallery img{
+    position: absolute;
+}
+
+.aboutus-gallery .img1{
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    right: 0px
+}
+
+.aboutus-gallery .img2{
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: 3;
+}
+
+.aboutus-gallery .img3{
+    width: 200px;
+    height: 200px;
+    bottom: 60px;
+    right: 0px;  
+}
+
+/* ABOUT US SECTION END */
+
+/* CONTACT US SECTION END */ 
+
+.contactus-section{
+    padding: 0 3rem;
+    margin-bottom: 120px;
+}
+
+.contactus-container .title{
+    width: 90%;
+    text-align: right;
+}
+
+.contactus-container .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus-form{
+    flex: 0 0 50%;
+}
+
+.contactus-form form{
+    width: 100%;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    padding: 10px 15px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.form-group input:focus{
+    outline: none;
+}
+
+.form-group textarea{
+    padding: 10px 15px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    font-family: inherit;
+}
+
+.form-group textarea:focus{
+    outline: none;
+}
+
+.contactus-submit-btn{
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 10px 12px;
+    border-radius: 20px;
+    text-align: center;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.contactus-submit-btn.spin i{
+    animation: spin 1s infinite;
+}
+
+.contactus-text{
+    flex: 0 0 30%;
+    font-size: 1.8rem;
+}
+
+.just-validate-error-label{
+    font-size: 10px;
+}
+
+/* CONTACT US SECTION END */
+
+/* SCROLL UP BUTTON */
+.scrollup-btn-container{
+    position: fixed;
+    bottom: 10vh;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.scrollup-btn-container .scrollup-btn{
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    cursor: pointer;
+}

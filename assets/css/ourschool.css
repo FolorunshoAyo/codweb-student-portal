@@ -1,0 +1,133 @@
+@keyframes slideInOut{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+/* LEARN WITH US SECTION START */
+
+.learn-with-us-section{
+    margin: 60px 0;
+    padding: 0 2rem;
+}
+
+.learn-with-us-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* LEARN WITH US SECTION END */
+
+/* OUR SCHOOL SLIDER SECTION START */
+
+.our-school-slider-section{
+    padding: 0 3rem;
+    margin: 100px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* OUR SCHOOL SLIDER SECTION END */
+
+
+/* COURSES SECTION START */
+
+.courses-section{
+    padding: 0 3rem;
+    margin-bottom: 80px;
+}
+
+.hot-offer-wrapper{
+    overflow-x: hidden;
+    position: relative;
+}
+
+.hot-offer-container{
+    width: 1400px;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: bold;
+    animation: slideInOut 25s linear infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.hot-offer-container div:last-child{
+    margin-left: auto;
+}
+
+.hot-offer-text{
+    color: var(--red);
+}
+
+/* COURSES SECTION END */
+
+/* ENROLL SECTION START */
+
+.enroll-section{
+    padding: 0 3rem;
+    margin-bottom: 80px;
+}
+
+.enroll-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.enrollment-reasons-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enrollment-reasons{
+    list-style-type: none;
+}
+
+.enrollment-reason-list-item{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.enrollment-reason-list-item i{
+    color: var(--primary-color);
+    margin-right: 50px;
+}
+
+.enrollment-reason-list-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.enroll-btn-container{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.enroll-btn{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    text-decoration: none;
+    width: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ENROLL SECTION END */

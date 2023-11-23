@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: "KyivType Sans";
+    src: url(../fonts/KyivType-Sans-Medium.otf);
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+

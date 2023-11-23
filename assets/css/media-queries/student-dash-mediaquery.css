@@ -1,0 +1,210 @@
+/* < 1800px */ 
+@media only screen and (max-width: 112.5em){ 
+
+} 
+
+/* < 1200px */
+@media only screen and (max-width: 75em){ 
+
+}
+
+/* < 1040px */
+@media only screen and (max-width: 65em){ 
+    .today-card{
+        flex: 0 0 45%;
+    }  
+
+    .card-details{
+        flex: 0 0 60%;
+    }
+}
+
+/* < 900px */ 
+@media only screen and (max-width: 56.25em){
+    .login-container{
+        flex: 0 0 75%;
+    }
+
+    .table-container{
+        overflow-x: auto;
+    }
+
+    .main-table{
+        width: 700px;
+    }
+
+    .generic-table{
+        width: 800px;
+    }
+
+    .main-table.wallet-table{
+        width: 900px
+    }
+} 
+
+/* < 750px */ 
+@media only screen and (max-width: 46.875em){ 
+    .card-widgets{
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .today-card:not(:last-child){
+        margin-right: 0px;
+    }
+
+    .total-revenue-card{
+        margin-right: 0px;
+    }
+
+    .form-groupings .form-group-container{
+        flex: 0 0 100%;
+    }
+
+    .form-groupings .form-group-container{
+        flex: 0 0 100%;
+    }
+} 
+
+/* < 665px */ 
+@media only screen and (max-width: 41.5625em){ 
+    .dash-menu{
+        left: -75px;
+    }
+
+    .menu-icon{
+        font-size: 15px;
+        right: -60px;
+        top: -20px
+    }
+
+    .page-wrapper{
+        margin-left: 20px;
+    }
+
+    .dash-menu.expand{
+        z-index: 100;
+    }
+
+    .mobile-backdrop.display{
+        display: block;
+    }
+
+    .dash-menu.expand ~ .page-wrapper{
+        margin-left: 0px;
+    }
+
+    aside.expand .menu-icon{
+        right: 5px;
+        top: 10px;
+    }
+
+    .page-wrapper{
+        border: none;
+    }
+
+    .menu-list-container{
+        margin-top: 30px;
+        justify-content: flex-start;
+    }
+} 
+
+@media only screen and (max-width: 38.125em){  } /* < 610px */
+
+/* < 600px */
+@media only screen and (max-width: 37.5em){ 
+    .payment-table-container{
+        overflow-x: scroll;
+    }
+
+    .payment-table-container table{
+        width: 510px;
+    }
+}
+
+/* < 580px */ 
+@media only screen and (max-width: 36.25em){ 
+    .page-wrapper{
+        padding: 0px;
+    }
+}
+
+
+/* < 500px */ 
+@media only screen and (max-width: 31.25em){ 
+    .welcome-message{
+        font-size: 2rem;
+    }  
+}
+
+/* < 400px */
+@media only screen and (max-width: 25em){ 
+    .profile-container{
+        flex: 0 0 140px;
+    }
+
+    .image-container{
+        flex: 0 0 30px;
+    }
+
+    .image-container img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile-details h2{
+        font-size: 9px;
+    }
+
+    .profile-details p{
+        font-size: 8px;
+    }
+
+    .dash-header{
+        padding: 15px 10px;
+    }
+
+    .course-lists-container{
+        margin-block-start: 2rem;
+    }
+
+    .course-lists-container ul li{
+        height: auto;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .course-image-container{
+        flex: 0 0 50px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .course-image-container img{
+        max-width: 50px;
+    }
+
+    .course-image-container img{
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 112.5em){
+    .form-group.animate label{
+        top: 1rem;
+    }
+
+    .radio-group-container{
+        width: 300px;
+        margin: 40px auto
+    }
+}
+
+
+
+ 

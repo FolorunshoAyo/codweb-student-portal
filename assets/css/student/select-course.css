@@ -1,0 +1,156 @@
+.select-course-container{
+    padding: 0 12rem;
+    margin: 4rem 0;
+}
+
+.course-label, .payment-label{
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.card{
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    padding: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.title-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: "monserrat";
+    text-shadow: 0 2px 1px var(--primary-color), 
+      -1px 3px 1px var(--primary-color), 
+      -2px 5px 1px var(--secondary-color);
+    height: 180px;
+}
+
+.course-price{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.more-info-container{
+    padding: 1rem 1.5rem;
+}
+
+.course-title{
+    font-family: "monserrat";
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.course-description{
+    font-size: 1.5rem;
+}
+
+.course-duration{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-align: end;
+}
+
+.outer-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-circle.course-select{
+    margin-left: auto;
+}
+
+.inner-circle{
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+
+input[name="selected-course"]{
+    display: none;
+}
+
+input[name="selected-course"]:checked + label .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.02);
+}
+
+input[name="selected-course"]:checked + label .inner-circle{
+    display: block;
+}
+
+.payment-card{
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+
+.image-container{
+    flex: 0 0 15%;
+    margin-right: 5px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.payment-text-container{
+    flex: 0 0 70%;
+}
+
+.payment-text-container h3{
+    font-size: 1.8rem;
+    font-family: "monserrat";
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.payment-text-container p{
+    font-size: 1.4rem;
+}
+
+.radio-container{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[name="payment-plan"]{
+    display: none;
+}
+
+input[name="payment-plan"]:checked + label .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.02);
+}
+
+input[name="payment-plan"]:checked + label .inner-circle{
+    display: block;
+}

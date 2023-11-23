@@ -1,0 +1,54 @@
+
+.info-container{
+    text-align: center
+}
+
+.title--info{
+    margin-bottom: 10px !important;
+}
+
+.icon-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon-container i{
+    font-size: 5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.text{
+    font-size: 2rem;
+}
+
+.text:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.success-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.success-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--black);
+    width: 50%;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.success-container a:not(:last-child){
+    margin-right: 10px;
+}

@@ -1,0 +1,52 @@
+.alert-box {
+  opacity: 0;
+  visibility: hidden;
+  top: 10px;
+  right: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  width: max-content;
+  height: 50px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255);
+  z-index: 1000;
+}
+
+.alert-content {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.alert-content i.success {
+  color: #28a745;
+}
+
+.alert-content i.danger {
+  color: #dc3545;
+}
+
+.alert-content i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.alert-content {
+  font-family: "monserrat";
+  font-size: 15px;
+}
+
+.alert-box.active {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.alert-box.remove {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}

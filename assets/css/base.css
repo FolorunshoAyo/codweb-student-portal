@@ -1,0 +1,91 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FF5C00;
+    --secondary-color: #FF8124;
+    --white: #FFF;
+    --black: #000;
+    --red: red;
+    --green: #28a745;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+body{
+    background-image: url(../images/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+/* MEDIA QUERIES FOR THE ROOT ELEMENT */
+    
+html{
+    font-size: 63.5%;
+    overflow-x: hidden;
+}
+
+/* width < 1200? */
+@media only screen and (max-width: 75em){
+    html{
+        font-size: 56.25%; /* 1 rem = 9px, 9/16 * 100% = 56.25% */
+    }
+}
+
+/* width < 900? */
+@media only screen and (max-width: 56.25em){
+    html{
+        font-size: 50%; /* 1 rem = 8px, 8px/16px * 100% = 50% */
+    }
+}
+
+/* width < 400? */
+@media only screen and (max-width: 25em){
+    html{
+        font-size: 40%; /* 1rem = 6.4px, 6.4px/16 * 100% = 40%  */ 
+    }
+}
+
+/* width > 1800? */
+@media only screen and (min-width: 112.5em){
+    html{
+        font-size: 85%; /* 1 rem = 13.6px, 13.6/16  * 100% = 75%; */
+    }
+}
+
+
+.main-title{
+    font-family: "KyivType Sans";
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 7rem;
+}

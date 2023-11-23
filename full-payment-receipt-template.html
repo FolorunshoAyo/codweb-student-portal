@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6" />
+    <style>
+      body{
+        background-image: url(../assets/images/body.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      header {
+        width: 100%;
+        display: table;
+      }
+
+      header div{
+        display: table-row;
+      }
+
+      header div image{
+        display: table-cell;
+      }
+
+      header span{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 20px;
+      }
+
+      h3{
+        color: #FF8124;
+      }
+
+      main {
+        margin: 20px 0;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      footer {
+        text-align: center;
+        font-style: italic;
+      }
+
+      section{
+        margin: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="https://codeweb.ng/assets/images/logo.jpg" />
+        <span></span>
+        <span>Receipt no: {{ code }}</span>
+      </div>
+    </header>
+
+    <main>
+      <h1>Student Fee Receipt (Full Payment)</h1>
+
+      <section>
+        <h3>Student Details</h3>
+
+        <p>Name: {{ name }}</p>
+        <p>Phone No: {{ phoneNo }}</p>
+        <p>Email: {{ email }}</p>
+      </section>
+
+      <section>
+        <h3>Course Information</h3>
+
+        <p>Course Title: {{ ctitle }}</p>
+        <p>Course Fee: NGN {{ cfee }}</p>
+        <p>Type of payment: {{ paymentType }}</p>
+      </section>
+
+
+      <table>
+        <tbody>
+          <tr>
+            <td>Amount paid:</td>
+            <td style="text-align: right">NGN <b>{{ paidFee }}</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      &copy; Codeweb, {{ year }} <br>
+      {{ date }}
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+/* HEADER SECTION START */
+body{
+    overflow: hidden;
+    background: none;
+    height: 100vh;
+    display: flex;
+    transition: all .4s ease-in;
+}
+
+/* .header-container{
+    padding: 2rem 4rem;
+    display: flex;
+}
+
+.logo-container img{
+    height: 100%;
+    width: 100%;
+} */
+
+/* HEADER SECTION START */
+
+/* REGISTERATION SECTION START */
+
+.registeration-section{
+    padding: 0rem 8rem;
+    flex: 0 0 50%;
+    transition: all 1s ease;
+}
+
+.registeration-section header{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.registeration-section header a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.registeration-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100% - 120px);
+}
+
+.title{
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-family: 'KyivType Sans', sans-serif;
+}
+
+.form-groupings{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.form-groupings.last{
+    margin-bottom: 0px;
+}
+
+.form-groupings .form-group-container{
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+.form-groupings .form-group-container.w-100{
+    flex: 0 0 100%;
+}
+
+.form-group{
+    position: relative;
+    height: 50px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.form-group input[type="file"]{
+    padding-top: 1.5rem;
+}
+
+.form-group.animate input{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   transition: .3s;
+}
+
+.form-group.animate label{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    padding: 0 .25rem;
+    transition: .3s;
+    z-index: 2;
+}
+
+.form-group.animate input:focus + label,
+.form-group.animate select:focus + label{
+    top: -.5rem;
+    left: .8rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+    opacity: 1;
+} 
+
+.just-validate-error-label{
+    position: absolute;
+    bottom: -20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-group select{
+    font: inherit;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    outline: none;
+}
+
+.form-group select + label{
+    opacity: 0;
+}
+
+.form-input:not(:placeholder-shown).form-input:not(:focus) + label{
+    top: -.5rem;
+    left: .8rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.form-input:focus, .form-group select:focus{
+    border: 2px solid  var(--primary-color);
+}
+
+.agreement-container, .forgot-password-container{
+    font-size: 1.5rem;
+}
+
+.agreement-container{
+    position: relative;
+}
+
+.forgot-password-container{
+    text-align: end;
+}
+
+.forgot-password-container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+
+}
+
+.agreement-container label{
+    display: flex;
+    align-items: center;
+}
+
+.agreement-container label input{
+    margin-right: 10px;
+    accent-color: var(--primary-color);
+}
+
+.checkboxs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.checkboxs label{
+    flex: 0 0 32%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.checkboxs label input{
+    margin-right: 10px;
+    accent-color: var(--primary-color);
+}
+
+.checkboxs .just-validate-error-label{
+    position: static;
+    padding: 1rem;
+
+}
+
+.register-container{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.register-container button{
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.register-container button:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.register-container p{
+    font-size: 1.5rem;
+}
+
+.register-container p a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.hero-section-container{
+    overflow: hidden;
+    flex: 1;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    transition: all .5s ease-in;
+    background-color: var(--primary-color);
+    background-image: url("../images/codeweb_poster_background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-wrapper{
+    flex: 1;
+    position: relative;
+}
+
+.text-wrapper img{
+    position: absolute;
+    top: -80px;
+    left: -40px;
+    z-index: 0;
+}
+
+.text-container{
+    margin-left: 120px;
+    color: var(--white);
+    font-family: "monserrat";
+}
+
+.text-container h1{
+    font-size: 6rem;
+    line-height: 0.9;
+    margin-bottom: 20px;
+}
+
+.text-container p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+aside.copy-sign{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}

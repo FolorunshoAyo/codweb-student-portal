@@ -1,0 +1,51 @@
+.course-preview-section{
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+    position: relative;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.course-preview-section .course-preview-overlay{
+    background: linear-gradient(to bottom, #000, var(--primary-color));
+    z-index: 20;
+    position: absolute;
+    opacity: 0.65;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.course-title{
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+
+.description-wrapper{
+    margin-bottom: 100px;
+}
+
+h3{
+    margin: 20px 0;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.info-wrapper{
+    font-size: 1.8rem;
+}
+
+.info-wrapper p{
+    font-weight: 600;
+}
+
+.info-wrapper ul{
+    margin-left: 20px;
+    list-style-type: decimal;
+}
+
+.info-wrapper ul li:hover{
+    color: initial;
+}

@@ -1,0 +1,49 @@
+.main-wrapper{
+    padding: 3rem 2rem;
+}
+
+.main-wrapper .dash-main-title{
+    font-size: 3rem;
+    margin: 30px 0;
+    color: var(--primaty-color);
+}
+
+.notification-table{
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+}
+
+.notification-table thead{
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.notification-table thead tr{
+    color: var(--white);
+    text-align: center;
+}
+
+.notification-table thead tr th{
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.notification-table tbody{
+    font-size: 1.5rem;
+    overflow-y: auto;
+}
+
+.notification-table tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.notification-table tbody tr td{
+    height: 30px;
+    padding: 20px;
+}
+
+
+

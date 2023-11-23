@@ -1,0 +1,1017 @@
+/* < 1800px */ 
+@media only screen and (max-width: 112.5em){ 
+    .hero-container{
+        width: 1150px
+    }
+
+    .hero-image{
+        top: -103px;
+        left: -95px;
+    }
+
+    .aboutus-section{
+        width: 1100px;
+    }
+
+    .contactus-container .container{
+        padding: 2rem 5rem;
+    }
+
+    .laptop-image-container img{
+        height: 400px !important;
+    }
+
+    .form-group.animate label{
+        font-size: 1.2rem;
+    }
+} 
+
+/* < 1200px */
+@media only screen and (max-width: 75em){ 
+    .hero-container{
+        width: 90%;
+    }
+
+    .hero-image-container{
+        flex: 0 0 45%;
+    }
+
+    .hero-image-container img{
+        width: 100%;
+        top: -152px;
+        left: 0px;
+    }
+
+    .aboutus-section{
+        width: 90%;
+    }
+
+    .aboutus-gallery .aboutus-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .laptop-image-container img{
+        height: 200px !important;
+    }
+
+    .address-block{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .address-container{
+        margin-bottom: 50px;
+    }
+
+    .map-image-container{
+        flex: 0 0 auto;
+    }
+
+    .form-group.animate label{
+        font-size: 1.5rem;
+    }
+}
+
+/* < 1040px */
+@media only screen and (max-width: 65em){ 
+    .hero-title{
+        font-size: 8.8rem;
+    }
+
+    .hero-image-container{
+        flex: 0 0 49%;
+    }
+
+    .hero-image-container img{
+        height: 530px;
+        top: -141px;
+        left: 0px;
+    }
+
+    .aboutus-gallery img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .aboutus-gallery .img1{
+        top: 20px;
+    }
+
+    .aboutus-gallery .img3{
+        bottom: 80px;
+    }
+
+    .you-need-it-description{
+        width: 80%;
+    }
+
+    .text-wrapper img{
+        left: -100px;
+    }
+
+    .text-container{
+        margin-left: 50px;
+    }
+}
+
+/* < 900px */ 
+@media only screen and (max-width: 56.25em){
+    header{
+        background-color: transparent;
+    }
+
+    .header-container{
+        padding: 20px 40px;
+    }
+
+    .nav-link-container{
+        display: none;
+    }
+
+    .burger-menu-container{
+        flex: 0 0 30px;
+        display: flex;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .hero-image-container img{
+        height: 500px;
+        top: -146px;
+        left: 0px;
+    }
+
+    .aboutus-section{
+        padding-left: 7rem;
+    }
+
+    .main-brands-text{
+        width: 60%;
+    }
+
+    .consumables-container{
+        padding: 4rem 3rem;
+    }
+
+    .just-validate-error-label{
+        font-size: 1.5rem;
+    }
+
+    .person{
+        top: 40px;
+        right: 11rem 
+    }
+
+    .person.logged_in a{
+        font-size: 13px;
+    }
+
+    .registeration-section{
+        padding: 0 5rem;
+    }
+
+    .status-container{
+        font-size: 1.5rem;
+    }
+
+    .make-payment-header{
+        height: auto;
+        flex-flow: row wrap;
+    }
+
+    .progress-container{
+        margin: 20px auto 0;
+        order: 1;
+        flex: 0 0 80%;
+    }
+
+    .make-payment-container{
+        margin-top: 3rem;
+    }
+    
+    .select-course-container{
+        padding: 0 7rem;
+    }
+} 
+
+/* < 815px */ 
+@media only screen and (max-width: 50.9375em){ 
+    .hero-title{
+        font-size: 8rem;
+    }
+
+    .hero-image-container img{
+        height: 450px;
+        top: -115px;
+        left: 0px;
+    }
+
+    .services-section{
+        margin-bottom: 50px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .col3.col-sm-12{
+        flex: 0 0 auto;
+    }
+
+
+    .footer-col3.col-sm-12{
+        flex: 0 0 auto;
+    }
+
+    .col2.col-sm-12{
+        flex: 0 0 auto;
+    }
+
+    .service-group .service-group-image{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .col3.col-sm-12:not(:last-child){
+        margin-bottom: 60px;
+    }
+
+    .footer-col3.col-sm-12:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    .col2.col-sm-12:not(:last-child){
+        margin-bottom: 40px;
+    }
+
+    .reasons-list-item{
+        font-size: 2.5rem;
+    }
+
+    .benefits-container .benefits-title{
+        font-size: 2rem;
+    }
+
+    .benefits-list{
+        font-size: 1.5rem;
+    }
+
+    .you-need-it-container .main-title{
+        font-size: 6rem;
+    }
+
+    .registeration-section{
+        flex: 0 0 100%;
+    }
+
+    body.auth{
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #fafafa;
+    }
+
+    .form-group.animate input:focus + label{
+        background-color: rgba(255, 255, 255);
+    }
+
+    .title{
+        margin-bottom: 30px;
+        font-size: 5rem;
+    }
+
+    .registeration-wrapper{
+        align-items: center;
+    }
+
+    .registeration-container{
+        position: relative;
+        width: 80%;
+        padding: 3rem;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, .8);
+        /* backdrop-filter: blur(5px); */
+    }
+
+    .registeration-container::before,
+    .register-container::after{
+        content: "C";
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: var(--primary-color);
+        font-size: 40px;
+        color: var(--white);
+        z-index: -1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "monserrat";
+        filter: blur(2px);
+    }
+
+    .registeration-container::before{
+        top: 30px;
+        left: -10px;
+    }
+
+    .register-container::after{
+        bottom: 30px;
+        right: -10px;
+    }
+} 
+
+/* < 750px */ 
+@media only screen and (max-width: 46.875em){ 
+    .hero-title{
+        font-size: 7rem;
+    }
+
+    .hero-image-container img{
+        height: 450px;
+        top: -139px;
+        left: 0px;
+    }
+
+    .aboutus-text-box .main-title{
+        font-size: 5rem;
+    }
+
+    .contactus-submit-btn{
+        width: 75px;
+    }
+
+    .slider{
+        width: 95%;
+    }
+
+    .laptop-batch-slider{
+        height: auto;
+    }
+
+    .laptop-object{
+        flex: 0 0 48%;
+    }
+
+    .divider{
+        width: 80%;
+    }
+
+    .testimonial-slider-container{
+        width: 60%;
+    }
+
+    .benefits-container{
+        margin-left: 5%;
+    }
+
+    .you-need-it-text{
+        width: 75%;
+    }
+
+    .you-need-it-description{
+        width: 90%;
+    }
+
+    .proud-partners-container .proud-partners{
+        height: 250px;
+    }
+
+    .proud-partners img{
+        flex: 0 0 20%;
+    }
+    
+    .proud-partners span{
+        flex: 0 0 20%;
+    }
+
+    .consumables-container .item-group{
+        flex: 0 0 48%;
+    }
+
+    .address-block{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .address-container{
+        flex: initial;
+        margin-bottom: 40px;
+    }
+
+    .address-container .main-title{
+        text-align: center;
+    }
+
+    .hot-offer-container{
+        width: 1000px;
+    }
+
+    .form-groupings.courses .form-group-container{
+        flex: 0 0 100%;
+    }
+
+    .form-groupings.payment-plans .form-group-container{
+        flex: 0 0 100%;
+    }
+} 
+
+/* < 665px */ 
+@media only screen and (max-width: 41.5625em){ 
+    .hero-title{
+        font-size: 6rem;
+    }
+
+    .hero-image-container img{
+        height: 400px;
+        top: -113px;
+        left: 0px;
+    }
+    
+    .portfolio-section{
+        margin-bottom: 100px;
+    }
+
+    .slider{
+        height: 300px;
+    }
+
+    .laptop-batch-slider{
+        height: auto;
+    }
+
+    .brands-slider{
+        height: auto;
+    }
+
+    .slider div img{
+        height: 300px;
+    }
+
+    .aboutus-section{
+        height: auto;
+        padding-left: 5rem;
+    }
+
+    .aboutus-gallery .aboutus-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .aboutus-gallery .img1{
+        top: 0px;
+    }
+
+    .aboutus-gallery .img3{
+        top: 180px;
+    }
+
+    .contactus-text{
+        flex: 0 0 35%;
+    }
+
+    .main-brands-text{
+        width: 80%;
+    }
+
+    .testimonial-and-benefits-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .testimonial-and-benefits-container::after{
+        display: none;
+    }
+
+    .testimonial-slider{
+        height: auto;
+    }
+
+    .testimonial-slider-container{
+        float: none;
+        border-bottom: 3px solid var(--primary-color);
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .benefits-container{
+        float: none;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .savings-and-loan-container .main-title{
+        font-size: 5rem;
+    }
+
+    .how-it-works-container img{
+        width: 100%;
+        height: 550px;
+    }
+
+    .registeration-container{
+        width: 100%;
+    }
+
+    .progress-container{
+        flex: 0 0 95%;
+    }
+} 
+
+@media only screen and (max-width: 38.125em){  } /* < 610px */ 
+@media only screen and (max-width: 37.5em){  } /* < 600px */
+
+/* < 580px */ 
+@media only screen and (max-width: 36.25em){ 
+    .hero-section{
+        margin-top: 80px;
+    }
+
+    .hero-container{
+        width: auto;
+        border-radius: 0;
+    }
+
+    .hero-title{
+        font-size: 5rem;
+    }
+
+    .hero-image-container img{
+        width: 350px;
+        height: 400px;
+        top: -136px;
+        left: -70px;
+    }
+
+    .contactus-container .container{
+        padding: 2rem;
+    }
+
+    .contactus-container .main-title{
+        font-size: 6rem;
+        width: 100%;
+    }
+
+    .main-title{
+        font-size: 5rem;
+    }
+
+    .contactus-form{
+        flex: 0 0 60%;    
+    }
+
+    .hero-btn{
+        width: 50%;
+    }
+
+    .aboutus-gallery{
+        flex: 0 0 250px;
+    }
+
+    .aboutus-container{
+        flex-direction: column;
+    }
+
+    .aboutus-text-box{
+        margin-bottom: 10px;
+    }
+
+    .aboutus-gallery .aboutus-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .aboutus-gallery .img1{
+        top: 20px;
+        left: 10px;
+    }
+
+    .aboutus-gallery .img2{
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .aboutus-gallery .img3{
+        top: 120px;
+        right: 10px;
+    }
+
+    .testimonial-and-benefits-container{
+        width: 100%;
+    }
+
+    .proud-partners-container .proud-partners{
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .proud-partners-container .proud-partners{
+        margin-bottom: 100px;
+    }
+
+    .proud-partners img{
+        margin-bottom: 40px;
+    }
+
+    .consumables-container .item-group{
+        flex: 0 0 100%;
+    }
+
+    .item-group figure img{
+        height: 350px;
+    }
+
+    .contact-container .contact-text{
+        width: 85%;
+    }
+
+    .address-info{
+        width: 80%;
+    }
+
+    .how-it-works-section{
+        padding: 0 4rem;
+    }
+
+    .how-it-works-container img{
+        height: 450px;
+    }
+
+    .enquiries-textbox .main-title{
+        font-size: 2.5rem;
+    }
+
+    .person-container{
+        flex: 0 0 100px;
+    }
+
+    .make-payment-container{
+        padding: 0 5rem;
+    }
+
+    .progress-container{
+        flex: 0 0 100%;
+    }
+
+    .make-payment-container .main-title{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* < 500px */ 
+@media only screen and (max-width: 31.25em){ 
+    body{
+        height: auto;
+    }
+
+    .hero-text-box{
+        padding-right: 10px;
+    }
+
+    .hero-title{
+        font-size: 4rem;
+    }
+
+    .hero-text{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-btn{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+
+    .hero-image-container img{
+        height: 350px;
+        width: 300px;
+        top: -124px;
+        left: -50px;
+    }
+
+    .title{
+        font-size: 4rem;
+    }
+
+    .aboutus-gallery{
+        flex: 0 0 350px;
+    }
+
+    .aboutus-text-box .main-title{
+        font-size: 3.5rem;
+    }
+
+    .aboutus-gallery .img3{
+        top: 180px;
+    }
+
+     .contactus-container .container{
+        flex-direction: column;
+    }
+    .contactus-form{
+        order: 1;
+    }
+
+    .contactus-text{
+        order: 0;
+        margin-bottom: 20px;
+    }
+
+    .service-group .service-group-image{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .contactus-submit-btn{
+        width: 30%;
+    }
+
+    .consumables-gallery-title{
+        top: -40px;
+        width: 250px;
+    }
+
+    .enquiry-image-container{
+        flex: 0 0 80px;
+    }
+
+    .enquiry-image-container img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiries-textbox{
+        flex: 0 0 200px;
+    }
+
+    .container-404{
+        flex: 0 0 90%;
+    }
+
+    .number-404{
+        font-size: 15rem;
+    }
+
+    .whoops{
+        font-size: 2.5rem;
+    }
+
+    .redirect-container a{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    .form-group-container{
+        flex: 0 0 100% !important;
+    }
+
+    .form-groupings.last .form-group-container{
+        flex: 0 0 100% !important;
+    }
+
+    .success-container{
+        flex: 0 0 90%;
+    }
+
+    .checkboxs label{
+        flex: 0 0 48%;
+    }
+
+    .title{
+        margin-bottom: 15px;
+    }
+
+    .form-groupings{
+        margin-bottom: 0px;
+    }
+
+    .register-container{
+        margin-top: 15px;
+    }
+
+    .register-container button{
+        margin-bottom: 0px;
+    }
+
+    .registeration-wrapper{
+       display: block;
+       margin: 20px 0 50px;
+       height: auto;
+    }
+
+    .registeration-wrapper.login{
+        height: calc(100% - 120px);
+    }
+
+    aside.copy-sign{
+        display: none;
+    }
+}
+
+/* < 400px */
+@media only screen and (max-width: 25em){ 
+    .header-container{
+        padding: 3rem 4rem;
+    }
+
+    .hero-image-container img{
+        width: 250px;
+        height: 300px;
+        top: -111px;
+        left: -50px;
+    }
+
+    .service-group .service-group-image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .aboutus-gallery{
+        flex: 0 0 280px;
+    }
+
+    .aboutus-gallery .img3{
+        top: 160px;
+    }
+
+    .aboutus-gallery .aboutus-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .slider{
+        height: 250px;
+    }
+
+    .slider div img{
+        height: 250px;
+    }
+
+    .laptop-batch-slider{
+        height: auto;
+    }
+
+    .laptop-image-container img{
+        height: 100px !important;
+    }
+    
+    .main-brands-section{
+        margin-bottom: 100px;
+    }
+
+    .testimonial-slider{
+        width: 100%;
+    }
+
+    .item-group figure img{
+        height: 250px;
+    }
+
+    .contact-container .contact-text{
+        font-size: 2rem;
+    }
+
+    .how-it-works-container img{
+        height: 350px;
+    }
+
+    .enquiries-text{
+        width: 100%;
+    }
+
+    .enquiries-textbox{
+        width: 200px;
+    }
+
+    .registeration-container .title{
+        font-size: 4rem;
+    }
+
+    .registeration-notice{
+        margin-bottom: 60px;
+    }
+
+    .form-group.animate label{
+        font-size: 2rem;
+        top: 2.5rem;
+    }
+
+    .password-form-group label{
+        font-size: 2rem;
+        top: 1.5rem;
+    }
+
+    .form-group select{
+        font-size: 2rem;
+    }
+
+    .form-group input[type="file"]{
+        font-size: 2rem;
+        padding-top: 2.5rem;
+    }
+
+    .agreement-container{
+        font-size: 2rem;
+    }
+
+    .register-container button {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    .register-container p{
+        font-size: 2rem;
+    }
+
+    .otp-group{
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+
+/* > 1800px */ 
+@media only screen and (min-width: 112.5em){ 
+    .hero-container{
+        width: 1400px;
+    }
+
+    .hero-text-box{
+        padding: 10px;
+    }
+
+    .hero-image-container{
+        flex: 0 0 45%;
+        text-align: center;
+    }
+
+    .hero-image-container img{
+        width: 100%;
+        position: static;
+        top: 0px;
+        left: 0px;
+    }
+
+    .aboutus-section{
+        width: 1200px;
+    }
+
+    .contactus-container .container{
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+
+    .contactus-text{
+        margin-right: 30px;
+    }
+
+    .laptop-image-container img{
+        height: 400px !important;
+    }
+
+    .form-group.animate label{
+        font-size: 1.2rem;
+    }
+
+    .form-group.animate label{
+        top: 15px !important;
+    }
+
+    .form-group.animate input:focus + label, .form-group.animate select:focus + label{
+        top: -0.5rem !important;
+    }
+
+    .form-input:not(:placeholder-shown).form-input:not(:focus) + label{
+        top: -0.5rem !important;
+    }
+
+    .password-form-group label{
+        top: 1px !important
+    }
+
+    .password-form-group input:focus + label{
+        top: -1.8rem !important;
+    }
+
+    .password-form-input:not(:placeholder-shown).password-form-input:not(:focus) + label{
+        top: -1.8rem !important;
+    }
+}
+
+
+
+ 

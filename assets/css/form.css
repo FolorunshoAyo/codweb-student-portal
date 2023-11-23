@@ -1,0 +1,276 @@
+.form-notice{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-section{
+    margin: 10px 0 6rem;
+    padding: 0 8rem;
+}
+
+.form-title{
+    font-family: "KyivType Sans";
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-indent: -20px;
+}
+
+.form-groupings{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.form-group-container{
+    flex: 0 0 48%;
+    margin-bottom: 30px;
+}
+
+.form-group-container{
+    margin-bottom: 30px;
+}
+
+.form-group{
+    position: relative;
+    height: 50px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 5px !important;
+    border: 1px solid var(--primary-color) !important;
+    outline: none;
+    padding: 1rem !important;
+    background-color: none;
+}
+
+
+.form-group.animate input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s;
+}
+
+.form-group.animate label{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    padding: 0 .25rem;
+    transition: .3s;
+    z-index: 2;
+}
+
+.form-group.animate input:focus + label,
+.form-group.animate select:focus + label{
+    top: -.5rem;
+    left: .8rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+    opacity: 1;
+} 
+
+.just-validate-error-label{
+    position: absolute;
+    bottom: -22px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-group select{
+    font: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.form-group select + label{
+    opacity: 0;
+}
+
+.form-input:not(:placeholder-shown).form-input:not(:focus) + label{
+    top: -.5rem;
+    left: .8rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.form-input:focus, .form-group select:focus, .password-form-group-container.focused{
+    border: 2px solid  var(--primary-color);
+}
+
+.password-form-group-container{
+    display: flex;
+    height: 50px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.password-form-group-container.first{
+    margin-bottom: 30px;
+}
+
+.password-form-group{
+    flex: 0 0 90%;
+    position: relative;
+}
+
+.visibility-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.password-form-group input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: none;
+    outline: none;
+}
+
+.password-form-group label{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    padding: 0 .25rem;
+    transition: .3s;
+    z-index: 2;
+}
+
+.password-form-group input:focus + label{
+    top: -1.8rem;
+    left: -0.2rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+    opacity: 1;
+}
+
+.password-form-input:not(:placeholder-shown).password-form-input:not(:focus) + label{
+    top: -1.8rem;
+    left: -0.2rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.password-form-group .just-validate-error-label{
+    bottom: -30px;
+
+}
+.action-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.action-container button{
+    width: 50%;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.link-container{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.link-container a{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.check-image-container{
+    text-align: center;
+}
+
+.check-image-container i{
+    font-size: 5rem;
+    color: var(--primary-color);
+}
+
+.otp-group{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.checkboxs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkboxs label{
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.checkboxs label input{
+    margin-right: 10px;
+    accent-color: var(--primary-color);
+}
+
+.agreement-container{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.agreement-container label{
+    display: flex;
+    align-items: center;
+}
+
+.agreement-container label input{
+    margin-right: 10px;
+    accent-color: var(--primary-color);
+}
+
+.enroll-form-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.enroll-form-container button{
+    width: 60%;
+    padding: 2rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.enroll-form-container button:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
